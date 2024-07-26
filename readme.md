@@ -57,10 +57,12 @@ The purpose of the module 11 challenge is practice extracting information via  S
     ![avg_temp_plot](mars_challenge/mars_scrapping_analysis /Results/avg_min_temp.png)
 4. Identify the coldest and hottest months in Curiosity's location
     ![coldest_warmest_month](mars_challenge/mars_scrapping_analysis /Results/coldest_warmest_month.png)
-    The 3rd month has the coldest average minimum temperature and the eighth month has the warmest average minimum temperature. 
+    The coldest month on Mars is month 3 with an average minimum temperature of -83.31°C.
+    The warmest month on Mars is month 8 with an average minimum temperature of -68.38°C. 
 4. Average atmospheric pressure by month
     ![avg_pressure](mars_challenge/mars_scrapping_analysis /Results/avg_pressure_month.png)
     ![avg_pressure_plot](mars_challenge/mars_scrapping_analysis /Results/avg_pressure_plot.png)
+    Atmospheric pressure is, on average, lowest in the sixth month and highest in the ninth.
 5. Visualization of the daily minimum temperature over time to estimate the length of a Martian year
     ![terrestrial_days](mars_challenge/mars_scrapping_analysis /Results/terrestrial_days.png)
     A year on Mars appears to be about 675 days.
