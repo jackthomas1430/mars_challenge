@@ -6,14 +6,14 @@ The purpose of the module 11 challenge is practice extracting information via  S
     1. Scraping titles and preview text from Mars news articles. 
     2. Scraping and analyzing Mars Weather data 
     
-###Part 1: Scrape Titles and Preview Text from Mars News
+### Part 1: Scrape Titles and Preview Text from Mars News
     1. Open the Jupyter Notebook named part_1_mars_news.ipynb.
     2. Use automated browsing with Splinter to visit the Mars news site and inspect the page to identify which elements to scrape.
     3. Create a BeautifulSoup object and use it to extract text elements from the website.
     4. Extract the titles and preview text of the news articles and store them in a list of dictionaries.
     5. Print the list in your notebook.
     6. Optionally, export the scraped data to a JSON file.
-###Part 2: Scrape and Analyze Mars Weather Data
+### Part 2: Scrape and Analyze Mars Weather Data
     1. Open the Jupyter Notebook named part_2_mars_weather.ipynb.
     2. Use automated browsing to visit the Mars Temperature Data Site and inspect the page to identify which elements to scrape.
     3. Create a BeautifulSoup object and use it to scrape the data in the HTML table.
@@ -29,25 +29,25 @@ The purpose of the module 11 challenge is practice extracting information via  S
 
 ## Files
 - 'mars_challenge'(https://github.com/jackthomas1430/mars_challenge.git) :The main repo for this challenge.
--'mars_scrapping_analysis': Directory containing all files for the module 11 challenge 
-    -part_1_mars_news.ipynb: Jupyter notebook containing code to scrape Mars news titles and preview text.
-    -part_2_mars_weather.ipynb: Jupyter notebook containing code to scrape and analyze Mars weather data.
+- 'mars_scrapping_analysis': Directory containing all files for the module 11 challenge 
+    - part_1_mars_news.ipynb: Jupyter notebook containing code to scrape Mars news titles and preview text.
+    - part_2_mars_weather.ipynb: Jupyter notebook containing code to scrape and analyze Mars weather data.
     - 'starter_code': contains two jupyter notebooks to use as starter code for the analysis 
     - 'Results': directory containing exported data and images of the results 
-        -'mars_news.json': Mars News data exported in JSON format
-        -'mars_weather.csv': Mars Weather data saved to csv
+        - 'mars_news.json': Mars News data exported in JSON format
+        - 'mars_weather.csv': Mars Weather data saved to csv
     
 ## Instructions
 1. Install the following Python libraries if they are not already installed:
-    -pip install splinter
-    -pip install beautifulsoup4
-    -pip install pandas
-    -pip install matplotlib
+    - pip install splinter
+    - pip install beautifulsoup4
+    - pip install pandas
+    - pip install matplotlib
 2. Clone the repository to your local device using git clone (https://github.com/jackthomas1430/mars_challenge.git)
 3. Open the Jupyter Notebook named part_1_mars_news.ipynb and run to scrape titles and preview text from Mars News
 4. Open the Jupyter Notebook named part_2_mars_weather.ipynb and run to scrape and analyze Mars Weather Data
 
-##Results/Analysis: 
+## Results/Analysis: 
 1. Number of months on Mars
     ![number_of_months](mars_challenge/mars_scrapping_analysis /Results/number_of_months.png)
 2. Number of Martian days of data
@@ -67,10 +67,10 @@ The purpose of the module 11 challenge is practice extracting information via  S
     ![terrestrial_days](mars_challenge/mars_scrapping_analysis /Results/terrestrial_days.png)
     A year on Mars appears to be about 675 days.
      
-##Acknowledgements
+## Acknowledgements
     Xpert Learning Assistant was used to answer detailed questions, and assist in debugging.For more information about the Xpert Learning Assistant, visit [EdX Xpert Learning Assistant](https://www.edx.org/). 
     
-##References
+## References
 - [Beautiful Soup Documentation — Beautiful Soup 4.4.0 documentation](https://beautiful-soup-4.readthedocs.io/en/latest/)
 - [CSS Selectors](https://beautiful-soup-4.readthedocs.io/en/latest/#css-selectors)
 - [HTML Tags](https://www.w3schools.com/tags/)
